@@ -35,7 +35,7 @@ app = dash.Dash(__name__)
 # Define the app layout
 app.layout = html.Div([
     html.H1(
-        "California Monthly PM2.5 Map",
+        "California Monthly PM2.5 Averages",
         style={
             'font-family': 'Arial, sans-serif',  # Change to your desired font
             'text-align': 'center',  # Center the title
